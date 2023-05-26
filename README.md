@@ -1,2 +1,2 @@
 # Exercises
-Ejercicicios PHP y Python
+Python and PHP Exercises
