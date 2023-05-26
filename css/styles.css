@@ -1,0 +1,26 @@
+/* styles.css */
+
+table {
+    font-family: 'Roboto', sans-serif;
+}
+
+.table-container {
+    width: 80%;
+    margin: auto;
+}
+
+.table-container table {
+    border-collapse:separate;
+    width: 50%;
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
