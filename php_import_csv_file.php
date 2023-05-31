@@ -5,14 +5,14 @@
 
 $filename = 'Section.csv';
 
-$fp = fopen($filename, 'r');
+$fp = fopen($filename, 'r'); // open the file for reading
 
-// create an array to store the data
+// create an array to store the data from each line of the file
 $records = array();
 
 
 // read the line with fgets():
-while (($line = fgets($fp)) !== false) {
+while (($line = fgets($fp)) !== false)  {
     $line = rtrim($line, "\r\n"); // remove end of line characters
 
     // Separate the fields by commas using explode()
